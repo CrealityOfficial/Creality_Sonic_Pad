@@ -1,0 +1,3 @@
+[submodule "klipper"]
+	path = klipper
+	url = https://github.com/CrealityTech/klipper.git
