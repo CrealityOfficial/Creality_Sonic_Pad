@@ -1,3 +1,6 @@
 [submodule "klipper"]
 	path = klipper
 	url = https://github.com/CrealityTech/klipper.git
+[submodule "fluidd_ys"]
+	path = fluidd_ys
+	url = https://github.com/CrealityTech/fluidd_ys.git
