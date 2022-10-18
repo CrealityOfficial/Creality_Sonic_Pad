@@ -1,0 +1,53 @@
+On windows 10 and 11 you can use WSL:
+
+https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
+
+List distros:
+Type: wsl --list --verbose
+
+i.e 
+C:\Users\Admin>wsl --list --verbose
+  NAME                   STATE           VERSION
+  Ubuntu-20.04           Stopped 2
+  
+Run ubuntu:
+type:  wsl -d Ubuntu-20.04
+
+Then:
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+
+cd klipper
+cd scripts
+Enter "./install-ubuntu-18.04.sh" and press Enter
+cd ..
+make menuconfig
+
+enter changes to fit your motherboard:
+Select the Micro-controller Architecture,Processor model,Bootloader
+Offset,Clock Reference,Communication interface parameters etc
+
+When finished:
+press Q
+press Y
+
+Enter "make" and press Enter
+
+In windows explorer enter:
+
+\\wsl$
+
+Open folder: UbuntuXXXX
+Open folder: home
+Open foler: "username"
+Open folder: klipper
+Open folder: out
+
+Copy the file: klipper.bin to your SD-card
+
+Stop the Ubuntu:
+Type exit
+
+Via cmd check if stopped:
+wsl --list --verbose
