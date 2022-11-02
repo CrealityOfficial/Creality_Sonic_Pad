@@ -8,3 +8,7 @@
 [submodule "moonraker_ys"]
 	path = moonraker_ys
 	url = https://github.com/CrealityTech/moonraker_ys.git
+[submodule "mainsail_ys"]
+	path = mainsail_ys
+	url = https://github.com/CrealityTech/mainsail_ys.git
+	
