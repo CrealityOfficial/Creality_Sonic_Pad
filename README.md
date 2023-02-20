@@ -2,6 +2,9 @@
 
 https://github.com/CrealityOfficial/Creality_Sonic_Pad_Firmware.git
 
+# __Faq  Helper__
+
+https://www.creality.com/pages/faq?spm=..page_2450731.header_1.1&spm_prev=..page_1934481.products_display_1.1
 
 # __User defined firmware compilation guide__
 
