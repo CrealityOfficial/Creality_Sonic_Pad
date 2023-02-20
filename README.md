@@ -1,4 +1,9 @@
-User defined firmware compilation guide
+# __Firmware Helper__
+
+https://github.com/CrealityOfficial/Creality_Sonic_Pad_Firmware.git
+
+
+# __User defined firmware compilation guide__
 
 Using Linux subsystem under Windows 10 64-bit
 	Download and install VirtualBox
