@@ -6,6 +6,10 @@ https://github.com/CrealityOfficial/Creality_Sonic_Pad_Firmware.git
 
 https://www.creality.com/pages/faq?spm=..page_2450731.header_1.1&spm_prev=..page_1934481.products_display_1.1
 
+# __Os  Helper__
+
+https://github.com/CrealityTech/sonic_pad_os
+
 # __User defined firmware compilation guide__
 
 Using Linux subsystem under Windows 10 64-bit
