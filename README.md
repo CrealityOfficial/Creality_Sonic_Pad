@@ -10,6 +10,10 @@ https://www.creality.com/pages/faq?spm=..page_2450731.header_1.1&spm_prev=..page
 
 https://github.com/CrealityTech/sonic_pad_os
 
+# __Tip for use:__
+
+When the configuration file is copied to the USB stick and boot through the Sonic Screen custom model, the mcu connection serial address will be automatically changed to the corresponding USB interface mapping. If you manually overwrite the configuration file with the Fluidd configuration file option, you need to modify the mcu connection serial address format to: serial: /dev/serial/by-id/usb_serial_1 (if the machine is connected to USB port 2, then change it to serial: /dev/serial/by- id/usb_serial_2 and so on).
+ 
 # __User defined firmware compilation guide__
 
 Using Linux subsystem under Windows 10 64-bit
